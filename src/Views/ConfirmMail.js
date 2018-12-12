@@ -56,15 +56,6 @@ class ConfirmMail extends Component {
                         onChange={this.handleChange}
                         required
                         />
-                         <Input
-                        type="email"
-                        name="email"
-                        id="email_login"
-                        value={email}
-                        placeholder="Email"
-                        onChange={this.handleChange}
-                        required
-                        />
                     </FormGroup>
                   <Button>Submit</Button>
                   <Link to="/">Back to Login</Link>
